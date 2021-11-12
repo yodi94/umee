@@ -1,3 +1,4 @@
+
 function setupVars {
 	if [ ! $UMEE_NODENAME ]; then
 		read -p "Enter node name: " UMEE_NODENAME
