@@ -1,9 +1,3 @@
-#!/bin/bash
-# wget -q -O https://raw.githubusercontent.com/yodi94/umee/main/um.sh chmod +x um.sh && sudo /bin/bash um.sh
-
-
-sudo apt install curl -y < "/dev/null"
-
 function setupVars {
 	if [ ! $UMEE_NODENAME ]; then
 		read -p "Enter node name: " UMEE_NODENAME
